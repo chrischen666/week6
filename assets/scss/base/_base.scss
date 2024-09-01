@@ -1,0 +1,23 @@
+body {
+    font-family: "Newsreader", "Noto Serif TC";
+    background-color: $primary-100;
+    color: $neutral-500;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0.1em;
+}

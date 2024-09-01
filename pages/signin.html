@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>signin</title>
+        <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    </head>
+    <body>
+        <%- include('./layout/header'); -%>
+        <div class="container py-10">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card p-7 border-primary-300">
+                        <div class="card-body">
+                            <h4 class="card-title text-accent-200 mb-7">登入</h4>
+                            <div class="mb-3">
+                              <label for="signMember" class="mb-2 form-label">會員帳號</label>
+                              <input type="text" class="form-control placeholder-primary" id="signMember" placeholder="請輸入會員帳號">
+                            </div>
+                            <div class="mb-7">
+                              <label for="signPassword" class="mb-2 form-label">密碼</label>
+                              <input type="text" class="form-control placeholder-primary" id="signPassword" placeholder="請輸入密碼">
+                            </div>
+                         
+                            <button type="submit" href="#" class="btn btn-accent-200 w-100 text-white mb-7">立即登入
+                              <i class="bi bi-arrow-right"></i>
+                            </button>
+                            <div class="border-gray-200 border-top position-relative mb-7">
+                              <p class="text-neutral-300 position-absolute top-0 start-50 translate-middle bg-white px-1">或以其他方式註冊</p>
+                            </div>
+                            <a href="#" class="btn btn-neutral-100 w-100 d-flex justify-content-center gap-2 align-items-center mb-1 rounded-5">
+                              <img src="../assets/images/icons-google.png" alt="google" style="width: 18px; height: 18px;">
+                              <p class="mb-0">使用 Google 登入</p>
+                            </a>
+                            <a href="#" class="btn btn-neutral-100 w-100 d-flex justify-content-center gap-2 align-items-center mb-1 rounded-5 mb-7">
+                              <img src="../assets/images/icons-facebook.png" alt="google" style="width: 18px; height: 18px;">
+                              <p class="mb-0">使用 Facebook 登入</p>
+                            </a>
+                            <p class="text-center">
+                              已經是會員了？ 
+                              <a href="signup.html" class="text-accent-200">
+                                點此註冊
+                              </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('./layout/footer'); -%>
+
+        <script type="module" src="../main.js"></script>
+    </body>
+</html>

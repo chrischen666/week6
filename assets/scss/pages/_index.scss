@@ -1,0 +1,32 @@
+.logo {
+    width: 94px;
+    height: 28px;
+}
+.banner {
+    background-image: url("../assets/images/banner-sm.png");
+    background-size: cover;
+    background-position: center;
+    height: 626px;
+    @include lg {
+        background-image: url("../assets/images/banner.png");
+    }
+}
+.line{
+    width: 80px;   
+    height: 1px;
+    background-color: $gray-600;
+}
+.bg-activity{
+
+        background-image: url("../assets/images/bg-2-sm.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+
+    @include lg{
+        background-image: url("../assets/images/bg-1.png"), url("../assets/images/bg-2.png");
+        background-position: left bottom, bottom right;
+    }
+}
+.fs-theme{
+    font-size: 52px;
+}
