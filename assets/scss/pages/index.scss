@@ -3,12 +3,12 @@
     height: 28px;
 }
 .banner {
-    background-image: url("../assets/images/banner-sm.png");
+    background-image: url("../images/banner-sm.png");
     background-size: cover;
     background-position: center;
     height: 626px;
     @include lg {
-        background-image: url("../assets/images/banner.png");
+        background-image: url("../images/banner.png");
     }
 }
 .line{
@@ -18,12 +18,12 @@
 }
 .bg-activity{
 
-        background-image: url("../assets/images/bg-2-sm.png");
+        background-image: url("../images/bg-2-sm.png");
         background-repeat: no-repeat;
         background-position: bottom right;
 
     @include lg{
-        background-image: url("../assets/images/bg-1.png"), url("../assets/images/bg-2.png");
+        background-image: url("../images/bg-1.png"), url("../images/bg-2.png");
         background-position: left bottom, bottom right;
     }
 }
